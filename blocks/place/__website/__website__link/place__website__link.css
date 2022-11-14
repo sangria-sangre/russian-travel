@@ -1,0 +1,11 @@
+.place__website__link{
+    text-decoration: underline;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;  
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+}
+
