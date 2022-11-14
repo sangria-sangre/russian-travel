@@ -6,5 +6,11 @@
     line-height: 1;
     margin: 0;
     padding: 0;
-        
+}
+
+@media screen and (max-width: 767px) {
+    .place__website_url-heading{
+        padding-left: 16px;
+    }
+    
 }

@@ -1,5 +1,5 @@
 .place__website{
-    height: 46px;
+    max-height: 46px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -7,9 +7,3 @@
     margin: 0;
 }
 
-@media screen and (max-width: 767px) {
-    .place__website{
-        padding: 32px 16px 0;
-    }
-    
-}
