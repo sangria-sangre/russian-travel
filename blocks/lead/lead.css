@@ -1,18 +1,18 @@
-.lead{
+.lead {
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 auto;
 }
 
 @media screen  and (min-width: 928px) {
-    .lead{
+    .lead {
         width: 928px;
     }
 }
 
 @media screen  and (min-width: 984px) {
-    .lead{
+    .lead {
         width: 984px;
     }
 }

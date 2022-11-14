@@ -1,16 +1,16 @@
-.place__website_link{
-    text-decoration: underline;
+.place__website_link {
+    margin: 0; 
+    padding: 0;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 18px;
-    color: #fff;
     line-height: 1.2;
-    margin: 0;
-    padding: 0;
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 767px) {
-    .place__website_link{
+    .place__website_link {
         padding-left: 16px;
     }
     

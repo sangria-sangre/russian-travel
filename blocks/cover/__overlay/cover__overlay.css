@@ -1,12 +1,12 @@
-.cover__overlay{
-    width: 100%;
+.cover__overlay {
     position: relative;
     z-index: 0;
+    width: 100%;
     opacity: 0.7;
     transition: opacity 0.5s ease;
 }
 
-.cover__overlay:hover{
+.cover__overlay:hover {
     opacity: 0.3;
 }
 

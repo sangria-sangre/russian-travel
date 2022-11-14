@@ -1,4 +1,4 @@
-.cover__text{
+.cover__text {
     position: absolute;
     z-index: 1;
     display: flex;
@@ -6,6 +6,6 @@
     flex-direction: column;
 }
 
-.cover__text:hover ~ .cover__overlay{
+.cover__text:hover ~ .cover__overlay {
     opacity: 0.3;
 }
