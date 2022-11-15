@@ -5,13 +5,13 @@
 }
 
 
-@media screen  and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .lead__image {
         padding: 40px 0 0;
     }
 }
 
-@media screen  and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
     .lead__image {
         padding: 64px 0 0;
     }
