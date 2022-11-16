@@ -3,13 +3,11 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 52px;
     background-color: #2A2C2F;
 }
 
 @media screen and (max-width: 767px) {
     .header {
-        height: 42px;
         padding: 16px 16px 48px;
     }
 }

@@ -8,3 +8,8 @@
     color: #ffffff;
 }
 
+@media screen and (min-width: 1024px) {
+    .intro__text {
+        max-width: 690px;
+    }
+}

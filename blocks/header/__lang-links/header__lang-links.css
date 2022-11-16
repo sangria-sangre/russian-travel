@@ -5,9 +5,3 @@
     flex-direction: row;
     list-style-type: none;
 }
-
-.header__lang-links li:first-child > a {
-    text-decoration: underline;
-    margin-right: 18px;
-    text-underline-offset: 3px;
-}

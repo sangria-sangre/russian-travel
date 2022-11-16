@@ -5,19 +5,19 @@
 
 @media screen and (max-width: 767px) {
     .places {
-        padding-top: 14px;
+        padding-top: 39px;
         padding-bottom: 66px;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .places {
-        padding: 15px 24px 90px;
+        padding: 40px 24px 90px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .places {
-        padding: 12px 48px 92px;
+        padding: 37px 48px 92px;
     }
 }

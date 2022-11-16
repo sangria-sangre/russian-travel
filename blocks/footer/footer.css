@@ -12,12 +12,10 @@
         flex-direction: column;
         justify-content: start;
     }
-    
 }
 
 @media screen and (min-width: 1024px) {
     .footer {
         padding: 92px 48px 24px;
     }
-    
 }
