@@ -1,19 +1,29 @@
 .cover__link {
+    position: relative;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgba(42, 44, 47, 0.3);
-    background-size: cover;
     text-decoration: none;
-    transition: background-color 0.5s ease;
 }
 
-.cover__link:hover {
-    background-color: rgba(42, 44, 47, 0.8);
-    opacity: 1;
+.cover__link::before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #2a2c2f;
+    opacity: 0.3;
+    transition: opacity 0.5s ease;
+}
+
+.cover__link:hover::before {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {
